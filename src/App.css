@@ -1,0 +1,30 @@
+.app-wrapper{
+  display: grid;
+
+  grid-template-areas: 
+  "bao_h bao_h"
+  "bao_n bao_c";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /* grid-gap: 10px; */
+}
+
+.bao_nav{
+  grid-area: bao_n;
+  background-color:dodgerblue;
+}
+
+.bao_header{
+  grid-area: bao_h;
+  background-color: blanchedalmond;
+}
+
+.bao_header img{
+  width: 50px;
+}
+ 
+.bao_content{
+  grid-area: bao_c;
+  background-color: cyan;
+}
