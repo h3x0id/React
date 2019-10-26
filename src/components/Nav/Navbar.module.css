@@ -1,0 +1,8 @@
+.bao_nav{
+    grid-area: bao_n;
+    background-color:dodgerblue;
+  }
+
+.item{
+    color: white;
+}

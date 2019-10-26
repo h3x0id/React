@@ -1,0 +1,8 @@
+.bao_header{
+    grid-area: bao_h;
+    background-color: blanchedalmond;
+  }
+  
+  .bao_header img{
+    width: 50px;
+  }
